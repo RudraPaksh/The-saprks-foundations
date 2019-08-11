@@ -1,0 +1,40 @@
+Hello 
+
+Developed REST API using Django
+the API can perform basic CRUD Operations i.e
+
+1.C- Create
+2.R-Read
+3.U-Update
+4.D-Delete
+
+the tools used to sent request to the server is POSTMAN (for tetsngthe working of our web app)
+
+i have created examples
+1.EMployee data 
+
+
+
+i have used sqlite database for storing my records.
+
+first i will start server using commnnd python manage.py runserver
+
+server started sucessfully 
+now sent the request to server using POSTMAN 
+for fetching all the existing data we will make GET equest
+read operation has been performed
+
+for creating a new rcord we will send POST request and pass the data ina JSON fromate
+record created successfully.
+
+for getting a particular record we will use 'id' field of that record which is used as aprimary key
+to update a record we will send PUT  request to server if record not exits it will show that record dont exits
+else record update sucessfully
+
+last to delete record we can send DELETE rquest to the server and specify the id of record to be deleted
+
+
+this is all about the project 
+
+thank you THE SPARKS FOUNDATION
+Regards Virupaksh
